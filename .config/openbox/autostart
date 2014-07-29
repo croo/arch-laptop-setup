@@ -22,3 +22,4 @@ conky &
 devmon &
 volumeicon &
 cbatticon &
+nm-applet --sm-disable &
