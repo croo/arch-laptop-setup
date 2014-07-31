@@ -22,5 +22,9 @@ mkdir -p ./etc/X11/xorg.conf.d
 cp /etc/X11/xorg.conf.d/20-intel.conf ./etc/X11/xorg.conf.d
 
 #Set the trackpoint module, so the middle-mouse button works correctly
-mkdir -p /etc/X11/xorg.conf.d
+mkdir -p ./etc/X11/xorg.conf.d
 cp /etc/X11/xorg.conf.d/10-trackpoint.conf ./etc/X11/xorg.conf.d
+
+#Set enviroment variables and path
+mkdir -p ./etc
+cp /etc/profile ./etc
