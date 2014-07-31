@@ -251,6 +251,54 @@
         <command>xterm</command>
       </action>
     </keybind>
+    <keybind key="W-f">
+      <action name="Execute">
+        <command>thunar</command>
+      </action>
+    </keybind>
+    <keybind key="W-x">
+      <action name="Execute">
+        <command>oblogout</command>
+      </action>
+    </keybind>
+    <keybind key="W-m">
+      <action name="Execute">
+        <command>vlc</command>
+      </action>
+    </keybind>
+    <keybind key="W-k">
+      <action name="MaximizeFull"/>
+    </keybind>
+    <keybind key="W-Up">
+      <action name="MaximizeFull"/>
+    </keybind>
+    <keybind key="W-j">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveToCenter"/>
+    </keybind>
+    <keybind key="W-Down">
+      <action name="UnmaximizeFull"/>
+    </keybind>
+    <keybind key="W-l">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>100%</x>
+        <y>100%</y>
+        <width>50%</width>
+        <monitor>50%</monitor>
+      </action>
+      <action name="MaximizeVert"/>
+    </keybind>
+    <keybind key="W-h">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>0%</x>
+        <y>0%</y>
+        <width>50%</width>
+        <monitor>50%</monitor>
+      </action>
+      <action name="MaximizeVert"/>
+    </keybind>
   </keyboard>
   <mouse>
     <dragThreshold>1</dragThreshold>
