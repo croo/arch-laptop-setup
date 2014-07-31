@@ -22,4 +22,5 @@ conky &
 devmon &
 volumeicon &
 cbatticon &
+xrdb -merge .Xresources &
 nm-applet --sm-disable &
