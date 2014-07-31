@@ -28,3 +28,6 @@ cp /etc/X11/xorg.conf.d/10-trackpoint.conf ./etc/X11/xorg.conf.d
 #Set enviroment variables and path
 mkdir -p ./etc
 cp /etc/profile ./etc
+
+#Conky config file
+cp ~/.conkyrc .
