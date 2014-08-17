@@ -26,4 +26,4 @@ unset TERMCAP
 # Man is much better than us at figuring this out
 unset MANPATH
 
-export JAVA_HOME=/usr/lib64/jvm/java-7-openjdk/bin
+export JAVA_HOME=/usr/lib64/jvm/java-7-openjdk
