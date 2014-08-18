@@ -31,3 +31,5 @@ alias tcst='cd ~/programs/tcst/'
 #Prompt
 PS1='[\A]\[$(tput setaf 2)\]\u\[$(tput sgr0)\]@\[$(tput setaf 2)$(tput bold)\]\h:\[$(tput sgr0)\]\w\$ '
 export PS1
+
+PATH="`ruby -rubygems -e 'puts Gem.user_dir'`/bin:$PATH"
