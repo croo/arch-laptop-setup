@@ -6,8 +6,8 @@
 # ID 1
 rounded = 0
 border_width = 0
-background_color = #000000 20
-border_color = #FFFFFF 2
+background_color = #000000 22
+border_color = #FFFFFF 5
 
 # Panel
 panel_monitor = all
@@ -61,17 +61,15 @@ font_shadow = 0
 
 # System Tray
 systray = 1
-systray_padding = 2 2 4
+systray_padding = 2 0 4
 systray_sort = ascending
-systray_background_id = 1
+systray_background_id = 0
 systray_icon_size = 20
 systray_icon_asb = 70 0 0
 
 # Clock
-time1_format = %H:%M:%S
-time1_font = DejaVu Sans Mono 10
-time2_format = %Y %b. %e
-time2_font = DejaVu Sans Mono 8
+time1_format = %H:%M
+time1_font = Droid Sans Bold 10
 clock_font_color = #FFA300 100
 clock_padding = 10 0
 clock_background_id = 0
@@ -99,7 +97,7 @@ battery_low_cmd = notify-send "battery low"
 battery_hide = 98
 bat1_font = sans 8
 bat2_font = sans 6
-battery_font_color = #FFFFFF 60
+battery_font_color = #FFFFFF 63
 battery_padding = 1 0
 battery_background_id = 0
 

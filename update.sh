@@ -10,12 +10,12 @@ cp ~/.bashrc .
 cp ~/.Xresources .
 
 #config files for openbox - includes menu and hotkeys
-mkdir -p ./.config/openbox 
+mkdir -p ./.config/openbox
 cp ~/.config/openbox/* ./.config/openbox
 
 #config files for tint2 panel
 mkdir -p ./.config/tint2
-cp ~/.config/tint2/tint2rc ./.config/tint2
+cp -r ~/.config/tint2/. ./.config/tint2
 
 #Set the correct backlight module to make the keys set the brightness correctly 
 mkdir -p ./etc/X11/xorg.conf.d
