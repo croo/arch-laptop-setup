@@ -31,3 +31,6 @@ cp /etc/profile ./etc
 
 #Conky config file
 cp ~/.conkyrc .
+
+#SLiM login manager config file
+cp /etc/slim.conf ./etc
