@@ -31,7 +31,7 @@ set undoreload=10000 "maximum number lines to save for undo on a buffer reload
 
 set showmode "displays current mode
 
-color torte "sets the colorscheme
+color delek "sets the colorscheme
 set cursorline "highlight current line
 " colors highlighted line
 hi cursorline term=bold cterm=bold gui=none guibg=Grey9
