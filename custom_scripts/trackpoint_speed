@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo -n 240 > /sys/devices/platform/i8042/serio1/sensitivity
+echo -n 160 > /sys/devices/platform/i8042/serio1/speed
+echo -n 0 > /sys/devices/platform/i8042/serio1/press_to_select
+echo -n 4 > /sys/devices/platform/i8042/serio1/upthresh

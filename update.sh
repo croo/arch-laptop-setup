@@ -34,3 +34,11 @@ cp ~/.conkyrc .
 
 #SLiM login manager config file
 cp /etc/slim.conf ./etc
+
+#Trackpoint speed service for systemd
+#usage: if needed, edit .service file to point to custom_scripts/trackpoint_speed file
+# and edit custom_scripts/trackpoint_speed as needed
+# sudo systemctl start trackpoint-speed
+# sudo systemctl enable trackpoint-speed
+mkdir -p ./etc/systemd/system
+cp /etc/systemd/system/trackpoint-speed.service ./etc/systemd/system

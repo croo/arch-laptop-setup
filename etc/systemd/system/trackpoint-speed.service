@@ -1,0 +1,9 @@
+[Unit]
+Description="A small service wich runs at start and sets a better speed and sensitivity for Thinkpad trackpoints."
+
+[Service]
+Type=simple
+ExecStart=/home/croo/arch-laptop-setup/custom_scripts/trackpoint_speed
+
+[Install]
+WantedBy=multi-user.target
